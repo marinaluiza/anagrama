@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  string1: MyString
+  string2: MyString
+  anagrama: false
+
+two:
+  string1: MyString
+  string2: MyString
+  anagrama: false

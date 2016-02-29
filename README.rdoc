@@ -1,0 +1,38 @@
+== README
+
+* Ruby version
+2.1.1
+
+*Rails version
+4.2.5.1
+
+* System dependencies
+SQLite 3
+RSpec
+
+*Configuration
+Inside the app directory:
+$ bundle install
+$ bin/rake db:migrate
+$ bin/rails server
+
+* How to run the test suite
+After getting and configuring the app, inside the app directory run ($ cd anagrama):
+$ bin/rspec --format doc
+
+* Deployment instructions
+Clone the repository from https://github.com/marinaluiza/anagrama.git
+Enter the app directory - $ cd anagrama
+Generate a Heroku App - $ heroku create --http-git
+Deploy the code - $ git push heroku master
+Generate the database - $ heroku run rake db:migrate
+
+* How to use it
+The index shows every matches already made.
+To compare two words or two sentences you need to click on 'Nova comparação';
+Now, to make a new match you need to write the each word/sentence to compare 
+in the two availables text fields and then click at the 'Comparar' button;
+After that, you will be redirect to the 'Show' page where you can see if the 
+words/senteces are in fact an anagram;
+Click in the 'Ver todas' to back to the index page. 
+

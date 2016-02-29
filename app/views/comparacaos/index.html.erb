@@ -1,0 +1,21 @@
+<div>
+  <h1>Comparações</h1>
+    <table>
+      <tr>
+        <td><%= link_to 'Nova comparação', 'comparacaos/new' %></td>
+      </tr>
+      <tr>
+        <td><strong>String 1</strong></td>
+        <td><strong>String 2</strong></td>
+        <td><strong>É anagrama</strong></td>
+      </tr>
+     
+      <% @comparacaos.each do |post| %>
+        <tr>
+          <td><%= post.string1 %></td>
+          <td><%= post.string2 %></td>
+          <td><%= post.anagrama %></td>
+        </tr>
+      <% end %>
+    </table>
+</div>

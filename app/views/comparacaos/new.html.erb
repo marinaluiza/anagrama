@@ -1,0 +1,21 @@
+<div>
+  <h1>Nova comparação</h1>
+    <%= form_for :post, url: comparacaos_path do |f| %>
+      <p>
+        <%= f.label 'Insira uma palavra ou frase:' %><br>
+        <%= f.text_field :string1 %>
+      </p>
+     
+      <p>
+        <%= f.label 'Insira uma palavra ou frase:' %><br>
+        <%= f.text_field :string2 %>
+      </p>
+     
+      <p>
+        <%= f.hidden_field :anagrama, :value => false %>
+        <%= f.submit "Comparar" %>
+      </p>
+    <% end %>
+
+	<%= link_to 'Voltar', comparacaos_path %>
+</div>

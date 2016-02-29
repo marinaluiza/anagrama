@@ -1,0 +1,30 @@
+<div>
+	<h1>Ver comparação</h1>
+		<table>
+			<tr>
+				<td>
+			  		<strong>String 1:</strong>
+				</td>
+				<td>
+			  		<%= @post.string1 %>
+			  	</td>
+			</tr>
+			<tr>
+				<td>
+			  		<strong>String 2:</strong>
+				</td>
+				<td>
+			  		<%= @post.string2 %>
+			  	</td>
+			</tr>
+			<tr>
+				<td>
+			  		<strong>É anagrama:</strong>
+				</td>
+				<td>
+			  		<%= @post.anagrama %>
+			  	</td>
+			</tr>
+		</table>
+	<%= link_to 'Ver todas', '/' %>
+</div>
