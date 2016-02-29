@@ -11,8 +11,7 @@ SQLite 3
 RSpec
 
 * Configuration
-Inside the app directory:
-<Enter>
+Inside the app directory:<br />
 $ bundle install
 $ bin/rake db:migrate
 $ bin/rails server
