@@ -3,14 +3,14 @@
 * Ruby version
 2.1.1
 
-*Rails version
+* Rails version
 4.2.5.1
 
 * System dependencies
 SQLite 3
 RSpec
 
-*Configuration
+* Configuration
 Inside the app directory:
 $ bundle install
 $ bin/rake db:migrate
